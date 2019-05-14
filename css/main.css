@@ -551,7 +551,8 @@ html {
   height: auto; }
   body.no-scroll,
   html.no-scroll {
-    overflow-y: hidden; }
+    overflow-y: hidden;
+    height: 100%; }
 
 body {
   overflow-x: hidden;
