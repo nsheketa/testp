@@ -35,6 +35,10 @@
 
 .articles-slider__item-inner {
   width: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  @include center();
   @include transition-03();
   padding-bottom: 25px;
 
