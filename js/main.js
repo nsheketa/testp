@@ -31,6 +31,7 @@ $(document).ready(function () {
         $('.hamburger').removeClass('is-active');
         $('.header').removeClass('is-open');
         $('.header-nav').removeClass('is-active');
+        $('body, html').removeClass('no-scroll');
     }
 
     /*smooth scrolling*/
